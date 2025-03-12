@@ -1,0 +1,76 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section Styling */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+/* About Section */
+#about {
+    background-color: #e0e0e0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #dcdcdc;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Link Hover Effect */
+nav ul li a:hover {
+    text-decoration: underline;
+}
